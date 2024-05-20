@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.whitebackground {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 2%;
+    border: 20px;
+
+}
+
+
+
+.firstcontainer {
+    width: 20%;
+    height: 560px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.logo {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    /* background-color: black; */
+    background-image: url(relax\ logo\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-writeup {
+    width: 90px;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.line {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line>p {
+    width: 90%;
+    border-bottom: 1px solid white;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.dashboards {
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.iconswrite {
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+.wicontainer {
+    width: 100%;
+    height: 30px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.secondcontainer {
+    width: 45%;
+    height: 85%;
+    /* border: 1px solid black; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.backgroundtwo {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+span>button {
+    width: 110px;
+    height: 35px;
+    background-color: rgb(51, 51, 251);
+    border-radius: 8px;
+    color: white;
+    border: none;
+
+}
+
+.btn {
+    width: 100%;
+    height: 30%;
+}
+
+.btn>button {
+    width: 110px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    color: rgb(87, 86, 86);
+
+}
+
+
+.btn-two {
+    width: 100%;
+    height: 40px;
+    background-color: whitesmoke;
+    color: black;
+    color: rgba(255, 255, 255, 0.521);
+}
+
+
+
+.logoandwriteup {
+    width: 100%;
+    height: 350px;
+    border: 1px solid black;
+    /* background-color: blue; */
+
+}
+
+.section-one {
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first-image {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-image: url(main\ image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.second-image {
+    width: 80px;
+    height: 80px;
+    /* border: 1px solid black; */
+    background-image: url(image\ two.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.first-imagee {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-image: url(red-heart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.second-imagee {
+    width: 80px;
+    height: 80px;
+    /* border: 1px solid black; */
+    background-image: url(circle-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.first-imageee {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-image: url(green-heart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.second-imageee {
+    width: 80px;
+    height: 80px;
+    /* border: 1px solid black; */
+    background-image: url(three-box.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+button {
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(51, 51, 251);
+    color: white;
+    border: none;
+}
+
+span {
+    color: blue;
+}
+
+.thirdcontainer {
+    width: 30%;
+    height: 400px;
+    background-color: pink;
+    border-radius: 5px;
+}
+.heading{
+    width: 100%;
+    height: 40px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heading >button{
+    width: 125px;
+    height: 100%;
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.142);
+}
+.backgroundinputs{
+    width: 100%;
+    height: 65%;
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+     align-items: center;
+    flex-direction: column;
+}
+.tlabel{
+    width: 100%;
+    height: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 5%
+    
+}
+.tlabel >input{
+    width: 30px;
+    height: 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: transparent;
+    /* border: 1px solid rgb(164, 163, 163); */
+    border-radius: 3%;
+
+}
+.inputsbtn{
+    width: 100%;
+    height: 45px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3%;
+}
+.secondbtn{
+    width: 100%;
+    height: 100%px;
+    /* background-color: purple; */
+    justify-content: center;
+    align-items: center;
+}
+.secondbtn >button{
+    background-color: none;
+    color: rgba(0, 0, 0, 0.516);
+    background-color: white;
+}
+.lastline{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid white;
+}
+.lastcontainer{
+    width: 100%;
+    height: 150px;
+    /* background-color: brown; */
+}
+.twotext{
+    width: 100%;
+    height: 50px;
+    /* background-color: white; */
+}
+.oneeye{
+    width: 50%;
+    height: 100%;
+    /* background-color: black; */
+
+}
+.oneeye >p{
+    color: black;
+    
+}

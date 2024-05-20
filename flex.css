@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin: 0;
+}
+.container{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+}
+.card{
+    width: 20%;
+    height: 30%;
+    background-color: red;
+}
+.two{
+    background-color: springgreen;
+}
+.three{
+    background-color: slateblue;
+}

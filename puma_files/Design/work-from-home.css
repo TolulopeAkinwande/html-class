@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.firstbackground{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.55);
+    background-image: url(istockphoto-1319189527-612x612.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.narvbar{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+}
+.one{
+    font-size: 20px;
+}
+.firsttext{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    gap: 6%;
+    padding-left: 10%;
+    color: white;
+    font-family: sans-serif;
+}
+.buttonn{
+    width: 100%;
+    height: 50px;
+    /* background-color: blueviolet; */
+    /* padding-left: 10%; */
+}
+.email{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+
+}
+.email >input{
+    width: 80%;
+    height: 80%;
+    border: none;
+}
+.email >button{
+    width: 25%;
+    height: 80%;
+    background-color: rgb(253,82,13);
+    border: none;
+    color: white;
+    margin-right: 4%;
+}
+.secondbackground{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(253,82,13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+
+   
+}
+.backgroundone{
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.icon{
+    width: 50%;
+    height: 40%;
+    border: 1px solid black;
+    color: white;
+    font-size: 100px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 100%;
+    height: 40%;
+    border: 1px solid gree
+    n;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    gap: 3%;
+}
+.thirdbackground{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.thirdbackground >video{
+    width: 90%;
+    height: 60%;
+}
+
+.thirdbackground >h3{   
+    margin-bottom: 1%;
+    font-size: 15px;
+}
+.thirdbackground >p{
+    font-size: 10px;
+    color: rgb(132, 129, 129);
+    padding-top: 1%;
+}
+.fourthbackground{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(253,82,13);
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+.oned{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+.fifthbackground{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6%;
+}  
+.fifthbackground >i{
+    font-size: 100px;
+    color: rgb(228, 223, 223);
+}
+.fifthbackground >p{
+    font-weight: 8px;
+    text-align: center;
+}
+.fifthbackground >img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+span{
+    color:rgb(253,82,13) ;
+}
+.lastbackground{
+    width: 100%;
+    height: 250px;
+    /* background-color: blue; */
+    background-image: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+}
+.home >button{
+    width: 100px;
+    height: 20px;
+
+}

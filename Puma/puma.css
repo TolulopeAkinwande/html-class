@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(174, 116, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 30%;
+    height: 95%;
+    background-color: white;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;  */
+}
+.icon{
+    width: 100%;
+    height: 40px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.puma{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-image: url(puma2\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+}
+.cart{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-image: url(cart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+}
+.image{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* background-color: blue; */
+
+    
+}
+.imagetwo{
+    width: 40%;
+    height: 60%;
+    background-image: url(shoes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.text{
+    width: 90%;
+    height: 100px;
+    margin-left: 5%;
+    /* background-color: palevioletred; */
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center; */
+
+
+}
+ .text >h1{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+
+} 
+.icons{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5%;
+
+    /* border: 1px solid black; */
+}
+.icons >i{
+    color: rgb(174, 116, 228);
+}
+.numbers{
+    width: 90%;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    margin-left: 5%;
+   
+
+}
+
+.numbers >h4{
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.numbers >h4 >sup{
+    color: green;
+
+}
+.btn{
+    width: 90%;
+    height: 40px;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    margin-left: 5%;
+}
+.btn >button{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color:rgb(174, 116, 228); 
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: none;
+
+}

@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+
+
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    /* border: 1 px solid black; */
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    font-size: 25px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    background-color:whitesmoke; 
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.cardone{
+    width: 25%;
+    height: 75%;
+    border: 2px solid rgb(108, 9, 9);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+
+}
+.img{
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid black; */
+    background-image: url(new\ york.jpg);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+.date{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.icon{
+    width: 60px;
+    height: 10px;
+    /* border: 1px solid black; */
+   
+}
+.datetwo{
+    width: 60px;
+    height: 10px;
+    /* border: 1px solid black; */
+   
+}
+.writeup{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+button{
+    width: 30%;
+    height: 15%;
+    background-color: rgb(130, 16, 16);
+    border: none;
+    color: white;
+    margin-top: 5%;
+    
+}

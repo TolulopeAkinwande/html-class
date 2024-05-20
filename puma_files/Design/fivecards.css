@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.whitebackground{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.bluebackground{
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: rgb(177, 218, 218);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.thefivecards{
+    width: 80%;
+    height: 80%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.onlycard{
+    width: 200px;
+    height: 100%;
+    border: 1px soild yellow;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-left: 650px;
+
+    
+}
+.whitecard{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    
+
+}
+.fourcards{
+    width: 200px;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.bottomcards{
+    width: 650px;
+    height: 200px;
+    background-color: purple;
+}
+.topcards{
+    width: 650px;
+    height: 200px;
+    background-color: plum;
+}

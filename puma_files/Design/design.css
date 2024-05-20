@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    padding-top: 3%;
+}
+
+.yellow{
+    width: 70%;
+    height: 95%;
+    background-color: rgb(247, 216, 75);
+    margin-left: 15%;
+    padding-top: 8%;
+    
+
+}
+
+.card{
+    width: 35%;
+    height: 370px;
+    background-color: white;
+    margin-left: 33%;
+    padding: 10px;
+    border-radius: 4%;
+    box-shadow: 8px 8px rgb(38, 35, 35);
+    border: 1px solid black;
+}
+
+.smallcard{
+    width: 95%;
+    height: 40%;
+    background-image:url(card\ image.png);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    margin-left: 8px;
+    border-radius: 3%;
+}
+
+
+button{
+    width: 65px;
+    height: 25px;
+    background-color:rgb(247, 216, 75);;
+    color: rgb(16, 1, 1);
+    margin-top: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.card >h4{
+    margin-top: 10px;
+    color: black;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+.card > h3{
+    color: rgb(16, 9, 9);
+    font-weight: lighter;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.card >p{
+    font-weight: lighter;
+    color: black;
+}
+
+.image >img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    
+}
+.number{
+}

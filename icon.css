@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lobster", sans-serif;
+}
+
+.card >*{
+    margin-bottom: 20px;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 20px 20px;
+    text-align: center;
+    /* background-color: #35435a; */
+}
+center{
+    font-size: 50px;
+}
+.card > button{
+    width: 85%;
+    height: 13%;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+.two{
+    background-color: rgb(219,46,105);
+    border: none;
+    color: white;
+}
+
+.two > button{
+    background-color: white;
+color: rgb(219,46,105);
+}

@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.narvbar{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parentlogo{
+    width: 20%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.sign{
+    width: 40px;
+    height: 100%;
+    /* background-color: aqua; */
+    background-image: url(dollarsign.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text{
+    color: white;
+    font-size: 13px;
+}
+span{
+    color: rgb(224, 94, 94);
+}
+.writeup{
+    width: 70%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.special{
+    width: 50px;
+    height: 100%;
+    /* background-color: brown; */
+    /* background-color: red; */
+    border-bottom: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.special >a{
+    color: red;
+    text-decoration: none;
+}
+.writeup >a{
+    text-decoration: none;
+    color: white;
+}
+.image{
+    width: 100%;
+    height: 400px;
+    /* background-color: blue; */
+    background-image: url(minimalist-nordic-home-interior-with-white-sofa-wooden-floor-large-wall-decor-and-window-with-white-landscape-illustration-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.372);
+    background-blend-mode: darken;
+}
+.textone{
+    width: 100%;
+    height: 70%;
+    /* background-color: red; */
+    color: white;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3%;
+    font-family: sans-serif;
+}
+.dot{
+    width: 100%;
+    height: 60px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.dot >img{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.thirdsection{
+    width: 80%;
+    height: 70px;
+    background-color: black;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+    
+}
+.yelloww{
+    width: 250px;
+    height: 50px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yellow{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    background-image: url(yellow\ logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.thirdsection{
+    color: white;
+    font-family: sans-serif;
+
+}
+.imagee{
+    width: 50px;
+    height: 50px;
+    background-image: url(minimalist-nordic-home-interior-with-white-sofa-wooden-floor-large-wall-decor-and-window-with-white-landscape-illustration-photo.jpg);
+}
+
+.fourthwriteup{
+    width: 100%;
+    height: 300px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+
+
+    
+}
+.whitewriteup{
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    font-size: smaller;
+}
+.img{
+    width: 20%;
+    height: 200px;
+    background-color: black;
+    background-image: url(whitechair.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.whitewriteup >h4{
+    color: rgb(225, 175, 105);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.whitewriteup >h3{
+    color: black;
+    font-size: 15px;
+    padding-bottom: 2%;
+}
+.whitewriteup >p{
+    color: rgb(193, 184, 184);
+    font-size: 8x;
+}
+
+.lastbackground{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+}
+.oservices{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+}
+.lastcards{
+    width: 100%;
+    height: 280px;
+    /* background-color: red; */
+}
+.lastcardone{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+
+}
+.lastcardimage{
+    width: 90%;
+    height: 50%;
+    background-color: blue;
+    /* background-color: white; */
+    display: flex; 
+    justify-content: center;
+    align-items: end;
+}
+.lastcardimage >img{
+    
+}

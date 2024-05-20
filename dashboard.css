@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.generalbackground{
+    width: 100%;
+    height: 1000px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+
+}
+.firstsection{
+    width: 20%;
+    height: 100%;
+    background-color: aliceblue;
+}
+.firstsectionwriteup{
+    width: 100%;
+    height: 350px;
+    /* background-color: black; */
+}
+.secondsection{
+    width:50%;
+    height: 100%;
+    background-color: aliceblue;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    align-items: start;
+    gap: 5%;
+  
+}
+.thirdsection{
+    width: 27%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    gap: 3%;
+    flex-direction: column;
+}
+.firstsectionlogo{
+    width: 100%;
+    height: 60px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.firstsectionlogo >img{
+    width: 40%;
+    height: 40px;
+}
+.bar{
+    color: blue;
+}
+.home{
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+    padding: 10%;
+}
+.sophie{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.junebooks{
+    width: 100%;
+    height: 120px;
+    background-color: white; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+.junebooks-image{
+    width: 150px;
+    height: 120px;
+    /* background-color:red; */
+}
+.junebooks-text >h2{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.junebooks-text >p{
+    font-size: 21px;
+}
+span{
+    color: blue;
+}
+.junebooks-two{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 5%; */
+    gap: 5%;
+}
+.jbtwo{
+    width: 40px;
+    height: 40px;
+    color: black;
+    font-size: 40px;
+}
+.jbtext-two{
+    width: 200px;
+    height: 200%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    flex-direction: column;
+}
+.complete{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(228, 240,207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    border-radius: 20px;
+}
+.junebooks-two >a{
+    text-decoration: none;
+    color: rgb(66,7,225);
+    font-size: 25px;
+}
+
+.tasksone{
+    width: 100%;
+    height: 200px;
+    /* background-color: black; */
+}
+.taskstwo{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    
+}
+.taskstwo >p{
+    font-size: 30px;
+}
+.tasksline{
+    width: 100%;
+    border: 1px solid aliceblue;
+    
+}
+.transaction{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+.junebackground{
+    width: 100%;
+    height: 400px;
+    background-color: brown;
+}
+.juneinsight{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    padding: 5%;
+
+}
+.juneinsight >p{
+    font-size: 25px;
+}
+.juneinsight >h1{
+    font-size: 50px;
+}
+.juneline{
+    width: 100%;
+    border: 1px solid aliceblue;
+}
+.seven{
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+    background-color: white;
+    
+}
+.seven >p{
+    font-size: 25px;
+
+}
+.sevenline{
+    width: 100%;
+    border: 1px solid aliceblue;
+}
+
+.narvbar{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5%;
+    padding-right: 5%;
+    font-size: 27px;
+}
+.bluetext{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.your-team{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+.contact{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 7%;
+    border-bottom: 1px solid white;
+}
+.contact-text{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    font-size: 23px;
+}
+.mark{
+    width: 100%;
+    height: 70px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondmark{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    padding-left: 5%;
+}
+.btn{
+    width: 50%;
+    height: 50%;
+    /* background-color: whitesmoke; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn >button{
+    width: 100px;
+    height: 100%;
+    /* background-color:white; */
+    border-radius: 3px;
+    font-size: 20px;
+    /* color: blue; */
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+    color: blue;
+    border: transparent;
+}
+.next{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px;
+    font-size: 15px;  
+    flex-direction: column;
+}
+.nexttwo{
+    width: 100%;
+    height: 40%;
+    /* background-color: red; */
+    border-bottom: 2px solid aliceblue;
+}
+.nextthree{
+    width: 100%;
+    height: 60%;
+    /* background-color: yellow; */
+}
+.lastbackground-one{
+    width: 100%;
+    height: 200px;
+    /* background-color: blueviolet; */
+}
+.lastbackground-two{
+    width: 100%;
+    height: 30%;
+    /* background-color: blue; */
+    border-bottom: 2px soild aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastbackgroundthree{
+    width: 100%;
+    height: 60%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2%;
+   
+}
+.lastbackgroundthree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 30px;
+    flex-direction: column;
+    gap: 5%;
+}
+
+
+.final{
+    width:90%;
+    height: 40%;
+    border: 2px solid purple;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

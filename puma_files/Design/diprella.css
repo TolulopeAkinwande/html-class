@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.general {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+
+.whitebackground {
+    width: 75%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.greenbackground {
+    width: 25%;
+    height: 100%;
+    background: linear-gradient(45deg,rgb(145, 206, 195), rgb(13,127,106));
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logobackground {
+    width: 100%;
+    height: 50px;
+    /* background-color: aqua; */
+}
+
+.logo {
+    width: 15%;
+    height: 100%;
+    /* background-color: chartreuse; */
+    background-image: url(diprellaimage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.writeup {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.writeup >h1{
+    font-family: serif;
+    color: black;
+    font-size: 79px;
+    padding-bottom: 10px;
+}
+.writeup >p{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: serif;
+    padding: 15px;
+}
+
+.image {
+    width: 20%;
+    height: 60PX;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.imgone {
+    width: 50px;
+    height: 100%;
+    /* background-color: blue; */
+    background-image: url(facebooklogo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.imgtwo {
+    width: 50px;
+    height: 100%;
+    /* background-color: blue; */
+    background-image: url(goggle\ logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+.imgtwo {
+    width: 50px;
+    height: 100%;
+    /* background-color: blue; */
+    background-image: url(goggle\ logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imgtwo {
+    width: 50px;
+    height: 100%;
+    /* background-color: blue; */
+    background-image: url(goggle\ logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imgthree {
+    width: 50px;
+    height: 100%;
+    /* background-color: blue; */
+    background-image: url(linkedinlogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.line {
+    width: 350px;
+    height: 20px;
+    border-bottom: 1px solid rgb(237, 226, 226);
+    
+
+}
+
+.text {
+    width: 25px;
+    height: 18px;
+    margin-top: -10px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    /* color: white; */
+}
+.information{
+    width: 350px;
+    height: 40px;   
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+     background-color:  rgb(203, 238, 229);
+    margin-top: 10px;
+    
+}
+.information >input{
+    width: 80%;
+    height: 90%;
+    border-radius: 15px;
+    /* border: 1px solid red; */
+    outline: none;
+    padding: 9px;
+    border: none;
+    background-color: transparent;
+
+}
+.informationtwo{
+    width: 350px;
+    height: 40px;   
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(203, 238, 229); 
+}
+.informationtwo >input{
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+    /* border: 1px solid red; */
+    background-color: transparent;
+    border: none;
+}
+.icon{
+    width: 10%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    background-color: rgb(13, 127, 106);
+    padding: 10px 70px;
+    margin-top: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.text-green{
+    width: 70%;
+    height: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-green >h2{
+    font-size: 27px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.text-green >p{
+    color: whitesmoke;
+    text-align: center;
+}
+ 
+.text-green >a{
+    background-color: whitesmoke;
+    padding: 10px 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
